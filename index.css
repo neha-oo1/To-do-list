@@ -1,0 +1,292 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+/* font-family: 'Italianno', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+/* font-family: 'Architects Daughter', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+/* font-family: 'Rajdhani', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@100&display=swap');
+/* font-family: 'Gluten', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+/* font-family: 'Space Grotesk', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+/* font-family: 'Sacramento', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+/* font-family: 'Handlee', cursive; */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: blanchedalmond;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+#cnt{
+    height: 1188px;
+    width: 58%;
+    margin: 87px 282px;
+    background-color: #eddfda91;
+    color : black;
+    font-family: 'Nunito', sans-serif;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+}
+.hd{
+    padding: 7% 35%;
+    padding-bottom: 22px;
+    font-family: 'Handlee', cursive;
+    font-size: 61px;
+    color: darkmagenta;
+    text-shadow: 1px 1px 2px black, 0 0 25px #191819, 0 0 5px #ccad3c;
+}
+.wn{
+    margin-left: 20px;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 31px;
+    color: #c43a02;
+}
+.list{
+    margin: 12px 178px;
+}
+.addl{
+    background-color: #eddfda26;
+    border: 2px solid darkmagenta;
+    padding: 13px 14px;
+    font-size: 21px;
+    font-family: 'Rajdhani', sans-serif;
+
+    font-weight: bold;
+    color: #6e0922;
+    border-radius: 23px;
+    height: 47px;
+    width: 92%;
+}
+.add-btn{
+    font-size: 22px;
+    color: darkmagenta;
+    background-color: lightsalmon;
+    margin: 1px 38%;
+    height: 30px;
+    width: 100px;
+    border: 2px solid lightsalmon;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 900;
+}
+.add-btn:hover{
+    background-color: #eddfda26;
+    margin: 1px 38%;
+    height: 30px;
+    width: 100px;
+    border: 2px solid #c43a02;
+    color: #c43a02;
+    cursor: grab;
+}
+hr.line1{
+    border: 0;
+    height: 2px;
+    background: darkmagenta;
+    background-image: linear-gradient(to right, #ccc, darkmagenta, #ccc);
+}
+hr.line2{
+    border: 0;
+    height: 3px;
+    background: darkmagenta;
+    background-image: linear-gradient(to right, #ccc, darkmagenta, #ccc);
+    margin-bottom: 12px;
+}
+.ylst{
+    font-size: 33px;
+    font-family: 'Architects Daughter', cursive;
+    margin-left: 21px;
+    color: #c43a02;
+}
+
+.listcard{
+    width: 99%;
+    padding: 10px;
+    /* border: 2px solid #e8c38f; */
+    background-color: #e8c38f;
+    margin-bottom: 26px;
+    border-radius: 23px; 
+}
+
+.list-title{
+    font-family: 'Space Grotesk', sans-serif;
+    color: #dc4305;
+    font-size: 26px;
+    margin-left: 37%;
+    margin-bottom: 8px;
+}
+h3.list-title:after{
+        content: ' \007E';
+}
+h3.list-title:before{
+        content: ' \007E';
+}
+.list-text{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    color: #68001a;
+    font-size: 19px;
+    margin: 0px 30px;
+}
+
+.btn{
+    color: #e4dfdd;
+    background-color: darkmagenta;
+    height: 29px;
+    width: 90px;
+    border: 2px solid darkmagenta;
+    margin: 14px 39%;
+    margin-top: 8px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 900;
+    font-size: 19px;
+}
+.btn:hover{
+    color: darkmagenta;
+    background-color: #e8c38f;
+    height: 29px;
+    width: 90px;
+    border: 2px solid darkmagenta;
+    margin: 14px 39%;
+    margin-top: 8px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 900;
+    font-size: 19px;
+    cursor: grab;
+}
+.nwork{
+    font-size: 34px;
+    margin-left: 21px;
+    color: darkblue;
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 900;
+}
+
+@media screen and (max-width: 1410px) {
+    .hd{
+        font-size: 53px;
+    }
+}
+@media screen and (max-width: 1214px) {
+    .hd{
+        font-size: 46px;
+    }
+}
+@media screen and (max-width: 1052px) {
+    .hd{
+        font-size: 42px;
+    }
+    .wn{
+        font-size: 20px;
+    }
+    .ylst{
+        font-size: 26px;
+    }
+    .add-btn {
+        margin: 1px 33%;
+    }
+    .add-btn:hover {
+        margin: 1px 33%;
+    }
+}
+@media screen and (max-width: 994px) {
+    #cnt{
+        width: 69%;
+        margin: 54px 161px;
+    }
+}
+
+@media screen and (max-width: 916px){
+    #cnt{
+        width: 80%;
+        margin: 50px 114px;
+    }
+}
+@media screen and (max-width: 816px){
+    #cnt{
+        width: 81%;
+        margin: 49px 84px;
+    }
+    .list-title{
+        margin-left: 31%;
+    }
+    .btn{
+        margin: 14px 33%;
+    }
+    .btn:hover{
+        margin: 14px 33%;
+    }
+}
+@media screen and (max-width: 722px){
+    #cnt{
+        width: 89%;
+    margin: 41px 41px;
+    }
+}
+@media screen and (max-width: 640px){
+    #cnt{
+        width: 99%;
+        margin: 8px 8px;
+    }
+}
+@media screen and (max-width: 564px){
+    #cnt{
+        width: 99%;
+        margin: 8px 8px;
+    }
+    .add-btn {
+        margin: 1px 23%;
+    }
+    .add-btn:hover {
+        margin: 1px 23%;
+    }
+    .hd{
+        font-size: 37px;
+    }
+    .addl{
+        width: 175%;
+        margin: 4px -85px;
+    }
+    .wn{
+        margin-left: -59px;
+        font-size: 26px;
+    }
+    .listcard{
+        margin-left: -73px;
+        width: 171%;
+    }
+}
+@media screen and (max-width: 508px){
+    #cnt{
+        width: 99%;
+        margin: 8px 8px;
+    }
+    .add-btn {
+        margin: 1px 10%;
+    }
+    .add-btn:hover {
+        margin: 1px 10%;
+    }
+    .hd{
+        font-size: 30px;
+    }
+    .addl{
+        width: 255%;
+        margin: 4px -123px;
+    }
+    .listcard{
+        margin-left: -123px;
+        width: 255%;
+    }
+    .ylst{
+        font-size: 18px;
+        margin-left: 0px;
+    }
+}
